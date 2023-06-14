@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+     .FP_main{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./Icons/image.png");
+        mix-blend-mode:multiply;
+        background-size:100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+     }
+     #back_img{
+        background-color: #860c03c5;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+     }
+     .FP_div{
+        color: #fff;
+        border: 1px solid black;
+        width: 450px;
+        height: 430px;
+        background: #000;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+     }
+     h3, #p {
+        color:#FFB800;
+;
+        padding-top: 50px;
+     }
+     #p_{
+        cursor: pointer;
+     }
+     p{
+        padding-top: 15px;
+        font-size: small;
+     }
+     .FP_form{
+        text-align: center;
+        padding-top: 50px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+     .FP_lab p{
+        text-align: left;
+        padding-left: 35px;
+        padding-bottom: 3px;
+     }
+     .FP_input{
+        padding-left: 10px;
+        width: 28vw;
+        height: 30px;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid rgb(156, 154, 154);
+        border-radius: 4px;
+     }
+     .btn_{
+        height: 40px;
+        width: 28vw;
+        margin-top: 40px;
+        color: #000;
+        border: none;
+        background-color:#FFB800;
+;
+        border-radius: 4px;
+     }
+     .btn_:hover{
+        background-color: #fff;
+     }
+     #FP_lab1{ 
+        display: none;
+     }
+     #FP_lab2{
+        display: inline-block;
+     }
+    </style>
+</head>  
+<body> 
+    <main class="FP_main">
+        <div id="back_img">
+        <div class="FP_div">
+            <h3>Forgot Password</h3>
+            <p>Enter your registered Email Address to retrieve<br/>
+            your password </p>
+            <form class="FP_form" method="post" >
+                <label for="reg_pass" class="FP_lab" id="FP_lab1"><p>Email Address :</p>
+                    <input type="email" required name="reg_pass" placeholder="example@email.com" class="FP_input"/>
+                </label>
+                <label for="reg_num" class="FP_lab" id="FP_lab2" ><p>Phone Number :</p>
+                    <input type="number" required name="reg_num" placeholder="Enter Phone.no" class="FP_input"/>
+                </label>
+            </form>
+
+            <div id="p"><p id="p_"> Use Phone Number </p></div>
+
+            <div>
+                <button type="submit" class="btn_"
+                id="FP_btn">Continue to Login 
+                <img src="./Icons/Vector (1).svg" alt="Success Icon" class="img_btn"/></button>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+    <script>
+
+    </script>
+</body>
+</html>
