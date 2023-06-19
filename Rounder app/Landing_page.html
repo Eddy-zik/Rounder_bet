@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .LP_nav {
+      height: 70px;
+      padding: 10px 40px 0px 40px;
+      border: none;
+      background-color: #000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .LP_nav img {
+      margin: 5px;
+      height: 45px;
+      cursor: pointer;
+    }
+
+    .LP_nav ul {
+      height: 80px;
+      width: 500px;
+      font-size: 0.8em;
+      margin-top: -10px;
+      margin-right: 180px;
+      color: #fff;
+      display: flex;
+      justify-content: space-evenly;
+      border: none;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .LP_nav ul li:hover {
+      background-color: rgb(37, 37, 37);
+      color: orange;
+    }
+
+    .LP_nav ul li {
+      border: none;
+      cursor: pointer;
+      padding: 28px;
+    }
+
+    .LP_nav section {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+
+    .LP_nav section button {
+      height: 32px;
+      width: 85px;
+      border: none;
+      border-radius: 7px;
+      background-color: #fff;
+      color: #000;
+    }
+
+    #reg_btn {
+      background-color: #000;
+      color: orange;
+      cursor: pointer;
+    }
+
+    #reg_btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    #log_btn {
+      background-color: orange;
+      cursor: pointer;
+    }
+
+    #log_btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .LP_main {
+      height: 100vh;
+      width: 100%;
+      background-image: url(./Icons/land_icons/image\ 12.png);
+      background-size: contain;
+      background-attachment: initial;
+      background-repeat: no-repeat;
+    }
+
+    .LP_div1 {
+      background-color: #850b03c5;
+      padding-top: 80px;
+      width: 100%;
+      height: 520px;
+      z-index: 1;
+    }
+
+    .LP_div1 h1 {
+      font-size: 3em;
+      color: #fff;
+      padding-left: 30px;
+    }
+
+    .LP_div1 h1 span {
+      font-size: 1.65em;
+    }
+
+    .LP_div1 button {
+      margin-top: 10px;
+      font-size: 0.8em;
+      margin-left: 30px;
+      height: 35px;
+      width: 250px;
+      border: none;
+      border-radius: 7px;
+      background-color: orange;
+      color: #000;
+      cursor: pointer;
+    }
+
+    #LP_text {
+      color: orange;
+    }
+
+    .LP_div2 {
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+      padding: 30px;
+    }
+
+    .LP_div2 .hr {
+      height: 50px;
+      width: 200px;
+      border: 3px solid orange;
+      border-bottom: none;
+      border-right: none;
+      border-left: none;
+      margin-left: 515px;
+    }
+
+    .LP_div2 div{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly ;
+    }
+
+    .LP_fig {
+      width: 290px;
+      height: 380px;
+      border: none;
+      background-color: #fff;
+      color: #000;
+      border-radius: 10px;
+    }
+    .LP_fig img{
+      height: 200px;
+      width: 290px;
+      border-radius: 10px;
+    }
+    .LP_fig button{
+      margin-top: 10px;
+      font-size: 0.8em;
+      height: 35px;
+      width: 220px;
+      border: none;
+      border-radius: 7px;
+      background-color: orange;
+      color: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="LP_nav">
+      <figure>
+        <img src="./Icons/land_icons/Vector.png" alt="" />
+      </figure>
+      <ul>
+        <li>HOME</li>
+        <li>SPORTS</li>
+        <li>CASINO</li>
+        <li>VIRTUAL GAMES</li>
+      </ul>
+      <section>
+        <button id="reg_btn">Register</button>
+        <button id="log_btn">Login</button>
+      </section>
+    </nav>
+  </header>
+
+  <main class="LP_main">
+
+    <!-- initial Landing page display  -->
+
+    <div class="LP_div1">
+      <h1>Welcome to the </br>
+        <span><span id="LP_text">Ultimate</span>
+          Betting </br> Experience!</span>
+      </h1>
+      <button>JOIN NOW!</button>
+    </div>
+
+    <!-- second Landing page display -->
+
+
+    <div class="LP_div2">
+      <h1>Top Bets</h1>
+      <div class="hr"></div>
+      
+      <!-- box display -->
+      <div>
+      <figure class="LP_fig">
+        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <h1>Football</h1>
+        <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
+          adsfghghj;kljhgfghjklg fgfghj
+          m architecto non placeat qui dignissimos repellendus perferendis sint.</caption><br />
+        <button>BET NOW!</button>
+
+      </figure>
+      <figure class="LP_fig">
+        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <h1>Football</h1>
+        <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
+          adsfghghj;kljhgfghjklg fgfghj
+          m architecto non placeat qui dignissimos repellendus perferendis sint.</caption><br />
+        <button>BET NOW!</button>
+
+      </figure>
+      <figure class="LP_fig">
+        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <h1>Football</h1>
+        <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
+          adsfghghj;kljhgfghjklg fgfghj
+          m architecto non placeat qui dignissimos repellendus perferendis sint.</caption><br />
+        <button>BET NOW!</button>
+
+      </figure>
+      <figure class="LP_fig">
+        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <h1>Football</h1>
+        <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
+          adsfghghj;kljhgfghjklg fgfghj
+          m architecto non placeat qui dignissimos repellendus perferendis sint.</caption><br />
+        <button>BET NOW!</button>
+
+      </figure>
+</div>
+
+        <p><div id="red_dot"></div> Live Highlights</p>
+        <section>
+          <figure>
+            <aside>
+            <img src="" alt=""/>
+            <img src="" alt=""/>
+          </aside>
+            <figure id="Time_dua">1</figure>
+            <aside>
+            <p id="Home"></p><figure id="Home"></figure> 
+            <p id="Away"></p><figure id="Away"></figure>
+          </aside>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          </figure>
+        </section>
+    </div>
+  </main>
+  <footer>
+    <section></section>
+    <div>
+
+    </div>
+    <section></section>
+  </footer>
+
+  <script>
+
+  </script>
+
+
+
+</body>
+
+</html>
