@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Password</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .UP_main{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./Icons/image.png");
+        background-size:100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+     }
+     #back_img{
+        background-color: #860c03c5;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+     }
+     .UP_div{
+        color: #fff;
+        border: 1px solid black;
+        width: 450px;
+        height: 430px;
+        background: #000;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+     }
+     h3{
+        color: #FFB800;
+;
+        padding-top: 60px;
+     }
+     p{
+        padding-top: 20px;
+        font-size: small;
+     }
+     .UP_form{
+        text-align: center;
+        padding-top: 25px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+     .UP_lab p{
+        text-align: left;
+        padding-left: 35px;
+        padding-bottom: 3px;
+     }
+     .UP_input{
+        padding-left: 10px;
+        width: 28vw;
+        height: 30px;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid rgb(156, 154, 154);
+        border-radius: 4px;
+     }
+     .btn_{
+        height: 40px;
+        width: 28vw;
+        margin-top: 40px;
+        color: #000;
+        border: none;
+        background-color:#FFB800;
+;
+        border-radius: 4px;
+     }
+     .btn_:hover{
+        background-color: #fff;
+     }
+    </style>
+</head>
+<body>
+    <main class="UP_main">
+        <div id="back_img">
+        <div class="UP_div">
+            <h3>Update Password</h3>
+            <p>Create a new password with a minimum of 8 <br/>
+            characters, with at least 1 special character. <br/>
+            (capital letter, number or punctuation)</p>
+            <form class="UP_form" method="post" >
+                <label for="new_pass" class="UP_lab"><p>New Password :</p>
+                    <input type="password" required name="new_pass" placeholder="Enter Password" class="UP_input"/>
+                </label>
+                <label for="con_pass" class="UP_lab" ><p>Confirm New Password :</p>
+                    <input type="password" required name="con_pass" placeholder="Enter Password" class="UP_input"/>
+                </label>
+            </form>
+
+            <div>
+                <button type="submit" class="btn_"
+                id="Up_btn">Continue to Login 
+                <img src="./Icons/Vector (1).svg" alt="Success Icon" class="img_btn"/></button>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
