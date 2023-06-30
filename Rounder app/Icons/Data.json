@@ -1,0 +1,40 @@
+{
+    "div_box1" : [
+    {
+        "id": 1 ,
+        "img": "./land_icons/image1.png",
+        "title": "FOOTBALL",
+        "des": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio adsfghghj;kljhgfghjklg fgfghj architecto non placeat qui dignissimos repellendus perferendis sint."
+    },{
+        "id": 2 ,
+        "img": "./land_icons/image2.png",
+        "title": "HORSE RACING",
+        "des": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maioadsfghghj;kljhgfghjklg fgfghj m architecto non placeat qui dignissimos repellendus perferendis sint."
+    },{
+        "id": 3 ,
+        "img": "./land_icons/image3.png",
+        "title": "VIRTUAL GAMING",
+        "des":"Lorem, ipsum dolor sit amet consectetur adipisi cing elit. odit vel maioadsfghghj;kljhgfghjklg fgfghjm architecto non placeat qui dignissimos repellendus perferendis sint." 
+    },{
+        "id": 4 ,
+        "img": "./land_icons/image4.png",
+        "title": "CASINO",
+        "des":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio adsfghghj;kljhgfghjklg fgfghjm architecto non placeat qui dignissimos repellendus perferendis sint." 
+    }
+],
+
+      "div_box2" :[
+
+        {
+            "id": 1 ,
+            "img": ,
+            "title": ,
+            "des": , 
+        },{
+            "id": 2 ,
+            "img": ,
+            "title": ,
+            "des": , 
+        }
+      ]
+}

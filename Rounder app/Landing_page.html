@@ -220,10 +220,10 @@
       <h1>Top Bets</h1>
       <div class="hr"></div>
       
-      <!-- box display -->
+      <!-- Start div_box1 display -->
       <div>
       <figure class="LP_fig">
-        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <img src="${div_box1.img3}" alt="" />
         <h1>Football</h1>
         <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
           adsfghghj;kljhgfghjklg fgfghj
@@ -232,7 +232,7 @@
 
       </figure>
       <figure class="LP_fig">
-        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <img src="./Icons/land_icons/image1.png" alt="" />
         <h1>Football</h1>
         <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
           adsfghghj;kljhgfghjklg fgfghj
@@ -241,7 +241,7 @@
 
       </figure>
       <figure class="LP_fig">
-        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <img src="./Icons/land_icons/image1.png" alt="" />
         <h1>Football</h1>
         <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
           adsfghghj;kljhgfghjklg fgfghj
@@ -250,7 +250,7 @@
 
       </figure>
       <figure class="LP_fig">
-        <img src="./Icons/land_icons/image 8.png" alt="" />
+        <img src="./Icons/land_icons/image1.png" alt="" />
         <h1>Football</h1>
         <caption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odit vel maio
           adsfghghj;kljhgfghjklg fgfghj
@@ -259,6 +259,9 @@
 
       </figure>
 </div>
+
+           <!-- End div_box1 display -->
+        <!-- Start div_box2 display -->
 
         <p><div id="red_dot"></div> Live Highlights</p>
         <section>
@@ -289,7 +292,22 @@
   </footer>
 
   <script>
+    fetch("Data.json")
+    .catch(error => console.log(ERROR))
+    .then(response => {return response.json()})
+    .then(data => showInfo(data));
+    // .then(data => { ShowInfo(data)})
+    // .then(data => {
+    //   data.forEach( div_box1 => { 
+    //     const markup = `<li>${user.name}</li>`
+    //     document.querySelector('ul').insertAdjacentElement('beforeend', markup)
+    //   })
+    // }) --> this is used if you want to insret it from the script
 
+    function showInfo(data){
+      
+    }
+    
   </script>
 
 
